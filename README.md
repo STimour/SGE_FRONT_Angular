@@ -17,8 +17,3 @@ npm install
 ```bash
 npx -y @angular/cli@16 ng serve --open
 ```
-
-Notes
------
-- J'ai assumé que la couleur `#FOC38E` dans votre message était `#F0C38E` (O -> 0). Si ce n'est pas voulu, dites-le et j'ajuste.
-- Le service API (`ApiService`) est prêt à appeler des endpoints REST classiques correspondant aux méthodes du backend. Adaptez `environment.ts` `apiBaseUrl` au besoin.
